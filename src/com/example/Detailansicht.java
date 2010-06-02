@@ -9,6 +9,8 @@ public class Detailansicht extends Activity{
 			super.onCreate(savedInstanceState);
 			
 			
+			
+			
 	}
 
 }
