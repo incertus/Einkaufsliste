@@ -1,5 +1,7 @@
 package com.example;
 
+import com.example.R.menu;
+
 import android.app.ListActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -15,7 +17,6 @@ import android.widget.AdapterView.OnItemClickListener;
 
 public class Liste extends ListActivity {
     
-
 	/** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -45,8 +46,10 @@ public class Liste extends ListActivity {
         return true;
     }
 
+    
     /* Handles item selections */
     public boolean onOptionsItemSelected(MenuItem item) {
+    	Toast.makeText(getApplicationContext(), ""+item.getItemId(), Toast.LENGTH_LONG);
         switch (item.getItemId()) {
         case R.id.new_item:
             Toast.makeText(this, "Neu", Toast.LENGTH_SHORT);
