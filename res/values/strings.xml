@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Einkaufsliste</string>
+    <string-array name="einkaufs_array">
+        <item>Fleisch</item>
+        <item>Brot</item>
+        <item>Wasser</item>
+        <item>Salat</item>
+    </string-array>
+</resources>
